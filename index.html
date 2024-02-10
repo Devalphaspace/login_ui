@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-0 m-0 relative h-screen w-screen">
+    <div class="h-full w-full relative">
+        <img class="object-cover h-full w-full" src="assets/9174459_6308.jpg" alt="">
+    </div>
+    <div class="absolute" style="transform: translate(-50%, -50%); top: 50%; left: 50%;">
+        <div class="flex flex-col px-12 py-8 bg-white rounded-xl justify-center items-center gap-2">
+            <h1 class="text-2xl font-bold">Agent Login</h1>
+            <p class="text-center">Hey, Enter your details to get sign in<br>to your account</p>
+            <div class="min-w-full w-20 min-h-8 max-h-12 rounded-xl border border-gray-300 flex flex-row items-center justify-center p-2">
+                <input type="email" class="w-full rounded-xl h-full max-h-12 p-2 border-transparent focus:border-transparent focus:ring-0 outline-none focus:outline-none placeholder:text-sm" placeholder="Enter Email / Phone No">
+                <div class="h-4 w-4 rounded-xl border border-gray-300"></div>
+            </div>
+            <div class="min-w-full w-20 min-h-8 max-h-12 rounded-xl border border-gray-300 flex flex-row items-center justify-center p-2">
+                <input type="password" class="w-full rounded-xl h-full max-h-12 p-2 border-transparent focus:border-transparent focus:ring-0 outline-none focus:outline-none placeholder:text-sm" placeholder="Enter Email / Phone No">
+                <p class="text-xs underline cursor-pointer">Hide</p>
+            </div>
+            <p class="cursor-pointer text-xs w-full mb-4">Having trouble in signing in?</p>
+            <button class="w-full bg-amber-500 rounded-lg p-2 mt-2">Sign In</button>
+            <p class="cursor-pointer text-xs w-full mb-4 text-center my-4">-- Or sign in with --</p>
+            <div class="flex flex-row items-center justify-center gap-2">
+                <div class="flex flex-row items-center justify-center gap-1 border border-gray-300 px-4 py-2 rounded-lg cursor-pointer hover:bg-gray-200 transition ease-in delay-150">
+                    <img class="h-4 w-4 object-contain grayscale" src="assets/5847f9cbcef1014c0b5e48c8.png" alt="">
+                    <p class="text-xs font-semibold">Google</p>
+                </div>
+                <div class="flex flex-row items-center justify-center gap-1 border border-gray-300 px-4 py-2 rounded-lg cursor-pointer hover:bg-gray-200 transition ease-in delay-150">
+                    <img class="h-4 w-4 object-contain grayscale" src="assets/580b57fcd9996e24bc43c516.png" alt="">
+                    <p class="text-xs font-semibold">Apple</p>
+                </div>
+                <div class="flex flex-row items-center justify-center gap-1 border border-gray-300 px-4 py-2 rounded-lg cursor-pointer hover:bg-gray-200 transition ease-in delay-150">
+                    <img class="h-4 w-4 object-contain grayscale" src="assets/623dd7d270712bdafc63c38a.png" alt="">
+                    <p class="text-xs font-semibold">Facebook</p>
+                </div>
+            </div>
+            <p class="cursor-pointer text-xs w-full mb-4 text-center my-4">Don't have an Account? <span class="font-semibold cursor-pointer">Register Now!</span></p>
+        </div>
+    </div>
+</body>
+</html>
